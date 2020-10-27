@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <nav class="navbar navbar-expand-sm navbar-light" style=" background-color: #e3f2fd;">
         <!-- Brand/logo -->
         <a class="navbar-brand" href="#">Internet Trainer</a>
 
@@ -37,7 +37,7 @@
         </ul>
     </nav>
     <header>
-        <div id="demo" class="carousel slide" data-ride="carousel">
+        <div id="demo" class="carousel slide mb-5 " data-ride="carousel">
 
             <!-- Indicators -->
             <ul class="carousel-indicators">
@@ -70,12 +70,12 @@
 
     <!-- about us -->
     <section>
-        <h1 class="text-center mt-4">About US</h1>
+        <h1 class="text-center">About US</h1>
         <hr class="w-25">
-        <div class="container">
+        <div class="container ">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img src="./img/IT.jpg" alt="poster" class="img-fluid img-thumbnail" height="00px">
+                    <img src="./img/IT.jpg" alt="poster" class="img-fluid img-thumbnail">
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <h1 class=" p-5 font-weight-light">Our ambition is to train people in the field of technology by
@@ -97,10 +97,10 @@
         <div class="container-fluid  ">
             <h1 class="text-center">Our Services</h1>
             <hr class="w-25">
-            <div class="row ">
-                <div class=" col-lg-4 col-lg-4 col-lg-4 col-md-6 col-md-6 col-sm-12 ">
-                    <div class="card h-100" style="width:400px;" style="height: 400px;">
-                        <img class="card-img-top " src="./img/webdev.jpeg" alt="Card image" style="width:100%">
+            <div class="row mb-3 ">
+                <div class=" col-lg-4  col-md-6 col-sm-12 ">
+                    <div class="card h-100" ">
+                        <img class=" card-img-top " src=" ./img/webdev.jpeg" alt="Card image">
                         <div class="card-body">
                             <h4 class="card-title">Web Development</h4>
                             <p class="card-text">Some example text some example text. John Doe is an architect and
@@ -108,41 +108,36 @@
 
                         </div>
                     </div>
-
-
                 </div>
-                <div class=" col-lg-4 col-lg-4 col-lg-4 col-md-6 col-md-6 col-sm-12 ">
-                    <div class="card h-100 " style="width:400px">
-                        <img class="card-img-top " src="./img/gd.jpg" alt="Card image" style="width:100%">
+                <div class=" col-lg-4  col-md-6 col-sm-12 ">
+                    <div class="card h-100 ">
+                        <img class=" card-img-top " src=" ./img/gd.jpg" alt="Card image">
                         <div class="card-body">
                             <h4 class="card-title">Graphics Design</h4>
                             <p class="card-text">Some example text some example text. John Doe is an architect and
                                 engineer</p>
-
                         </div>
                     </div>
                 </div>
-                <div class=" col-lg-4 col-lg-4 col-lg-4 col-md-6 col-md-6 col-sm-12 ">
-                    <div class="card h-100" style="width:400px">
-                        <img class="card-img-top" src="./img/ad.jpg" alt="Card image" style="width:100%">
+                <div class=" col-lg-4  col-md-6 col-sm-12">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="./img/ad.jpg" alt="Card image">
                         <div class="card-body">
                             <h4 class="card-title">Android Development</h4>
                             <p class="card-text">Some example text some example text. John Doe is an architect and
                                 engineer</p>
-
                         </div>
                     </div>
                 </div>
 
             </div>
         </div>
-
     </section>
 
     <!-- Youtube Videos -->
-    <section class="bg-dark">
-        <div class="container  mt-4">
-            <h1 class="text-center text-white">Our Youtube Video</h1>
+    <section class="bg-light">
+        <div class="container mb-2 ">
+            <h1 class="text-center text-dark">Our Youtube Video</h1>
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/S6SVPMs3zkY" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -153,14 +148,15 @@
 
     <!-- Contact Us -->
     <section>
-        <div class="bg-primary text-center mt-1 ">
+        <div class="bg-primary text-center mb-  ">
             <h1 class="">Contact US</h1>
-            <div class="container">
+            <div class="container w-25">
 
                 <form>
                     <div class="form-group">
                         <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"
+                            autocomplete="disabled">
                     </div>
                     <div class="form-group">
                         <label for="pwd">Password:</label>
@@ -173,11 +169,9 @@
         </div>
     </section>
 
-    <section>
-
-        <p class="text-center mt-2 ">&copy; Developed and Design by Prashant Tripathi</p>
-
-    </section>
+    <footer>
+        <p class="text-center py-3">&copy; Developed and Design by Prashant Tripathi</p>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
