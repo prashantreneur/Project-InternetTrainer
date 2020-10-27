@@ -1,0 +1,13 @@
+{
+  "name": "internet-trainer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d Internet-Trainer"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://prashanttripathii.github.io/internet-trainer"
+}
